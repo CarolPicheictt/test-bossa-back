@@ -8,7 +8,6 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 class TesteController extends Controller
 {
     public function index(){
-        <?php
 
         $servicosMarketing = collect([
             [
